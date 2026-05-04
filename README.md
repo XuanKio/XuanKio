@@ -73,9 +73,11 @@ Location     Vietnam</code></pre>
 
 </div>
 
-## Reference Cover Shelf
+## Reference Shelf
 
 Small public remakes that people can browse as learning references for mechanics, structure, and implementation ideas.
+
+### Spotlight covers
 
 <table>
   <tr>
@@ -105,6 +107,21 @@ Small public remakes that people can browse as learning references for mechanics
     </td>
   </tr>
 </table>
+
+<details>
+<summary><strong>Open the full reference library index</strong></summary>
+
+<br />
+
+Keep the top shelf for a few polished picks. When the library grows, new remakes can go into this compact index without making the profile too long.
+
+| Project | Engine | Language | Reference focus |
+| --- | --- | --- | --- |
+| [Tetris-Learn-3](https://github.com/XuanKio/Tetris-Learn-3) | Cocos Creator | TypeScript | Grid board, falling blocks, line clears, scoring, and input timing. |
+| [BlackJackFFLite-Learn-2](https://github.com/XuanKio/BlackJackFFLite-Learn-2) | Unity | C# | Card rules, turn order, UI states, round reset, and game state. |
+| [FlappyBird-ProjectLearn-1](https://github.com/XuanKio/FlappyBird-ProjectLearn-1) | Unity | C# | Jump feel, collision, score triggers, spawning, and replay loop. |
+
+</details>
 
 ## Side quests
 
