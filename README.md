@@ -46,15 +46,35 @@ I build small games, learn by shipping projects, and keep improving my code thro
 | [Draw-To-Save](https://github.com/XuanKio/Draw-To-Save) | TypeScript | Interactive game/prototype logic with drawing-based mechanics. |
 | [CNPM](https://github.com/XuanKio/CNPM) | Java | Software engineering coursework/project practice. |
 
-## GitHub stats
+## GitHub activity
 
 <div align="center">
 
-![XuanKio's GitHub stats](https://github-readme-stats.vercel.app/api?username=XuanKio&show_icons=true&theme=tokyonight&hide_border=true)
+<picture>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=XuanKio&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"
+    media="(prefers-color-scheme: dark)"
+  />
+  <img
+    height="165"
+    src="https://github-readme-stats.vercel.app/api?username=XuanKio&show_icons=true&theme=default&hide_border=true&rank_icon=github"
+    alt="XuanKio GitHub stats"
+  />
+</picture>
 
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=XuanKio&layout=compact&theme=tokyonight&hide_border=true)
+<picture>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=XuanKio&layout=compact&theme=tokyonight&hide_border=true"
+    media="(prefers-color-scheme: dark)"
+  />
+  <img
+    height="165"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=XuanKio&layout=compact&theme=default&hide_border=true"
+    alt="XuanKio top languages"
+  />
+</picture>
 
-![GitHub streak](https://streak-stats.demolab.com?user=XuanKio&theme=tokyonight&hide_border=true)
+![XuanKio contribution snake](https://raw.githubusercontent.com/XuanKio/XuanKio/output/github-contribution-grid-snake-dark.svg)
 
 </div>
 
