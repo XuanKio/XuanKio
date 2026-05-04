@@ -1,40 +1,59 @@
 <div align="center">
-  <img src="./assets/profile-lay.jpg" alt="XuanKio profile image 1" width="31%" />
-  <img src="./assets/profile-bowl.jpg" alt="XuanKio profile image 2" width="31%" />
-  <img src="./assets/profile-cup.jpg" alt="XuanKio profile image 3" width="31%" />
 
-  <h1>XuanKio</h1>
-  <h3>Unity / Cocos Game Developer in progress</h3>
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="./assets/profile-lay.jpg" alt="XuanKio debug mode" width="100%" />
+      <br />
+      <sub>debug nap</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="./assets/profile-bowl.jpg" alt="XuanKio build mode" width="100%" />
+      <br />
+      <sub>build snack</sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="./assets/profile-cup.jpg" alt="XuanKio compile mode" width="100%" />
+      <br />
+      <sub>coffee compile</sub>
+    </td>
+  </tr>
+</table>
 
-  <a href="https://github.com/XuanKio">
-    <img src="https://img.shields.io/github/followers/XuanKio?style=for-the-badge&logo=github&label=Followers&color=1f6feb&labelColor=0d1117" alt="GitHub followers" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=XuanKio&style=for-the-badge&color=2ea043&label=Profile+views" alt="Profile views" />
-  <img src="https://img.shields.io/badge/Focus-Unity%20%2F%20Cocos-f6c85f?style=for-the-badge&labelColor=0d1117" alt="Unity and Cocos focus" />
+# XuanKio
+
+### Cozy game lab for Unity / Cocos remakes and small playable experiments
+
+<a href="https://github.com/XuanKio">
+  <img src="https://img.shields.io/github/followers/XuanKio?style=for-the-badge&logo=github&label=Followers&color=1f6feb&labelColor=0d1117" alt="GitHub followers" />
+</a>
+<img src="https://komarev.com/ghpvc/?username=XuanKio&style=for-the-badge&color=2ea043&label=Visitors" alt="Profile views" />
+<img src="https://img.shields.io/badge/Mode-Game%20Dev-f6c85f?style=for-the-badge&labelColor=0d1117" alt="Game dev mode" />
+
 </div>
 
 ---
 
-## Player profile
+## Save file
 
 <table>
   <tr>
-    <td width="58%">
-      <h3>About</h3>
+    <td width="55%">
+      <h3>Hoang Xuan Cuong</h3>
       <p>
-        I am <strong>Hoang Xuan Cuong</strong>, a developer from Vietnam learning game development by rebuilding familiar game mechanics, shipping small projects, and improving each version.
+        I learn game development by rebuilding familiar mechanics, turning them into small playable projects, and polishing the code after the first version works.
       </p>
       <p>
-        My current focus is <strong>Unity</strong>, <strong>Cocos</strong>, gameplay systems, clean project structure, and practical game programming.
+        Current focus: <strong>Unity</strong>, <strong>Cocos Creator</strong>, gameplay loops, UI flow, project structure, and clean scripting.
       </p>
     </td>
-    <td width="42%">
-      <h3>Current build</h3>
-      <pre><code>Role        Game developer in progress
-Engines     Unity / Cocos
-Scripting   C# / TypeScript
-Practice    Remake -> playtest -> polish
-Location    Vietnam</code></pre>
+    <td width="45%">
+      <h3>Quick menu</h3>
+      <pre><code>Engines      Unity / Cocos Creator
+Languages    C# / TypeScript / JavaScript
+Style        Remake, test, polish
+Favorite     Small games with clear mechanics
+Location     Vietnam</code></pre>
     </td>
   </tr>
 </table>
@@ -44,7 +63,7 @@ Location    Vietnam</code></pre>
 <div align="center">
 
 ![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
-![Cocos](https://img.shields.io/badge/Cocos%20Creator-55C2E1?style=for-the-badge&logo=cocos&logoColor=white)
+![Cocos Creator](https://img.shields.io/badge/Cocos%20Creator-55C2E1?style=for-the-badge&logo=cocos&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000)
@@ -54,38 +73,47 @@ Location    Vietnam</code></pre>
 
 </div>
 
-## Unity/Cocos Cover Shelf
+## Reference Cover Shelf
 
-Public learning remakes that people can reference for mechanics, structure, and implementation ideas.
+Small public remakes that people can browse as learning references for mechanics, structure, and implementation ideas.
 
 <table>
   <tr>
-    <td width="33%">
+    <td align="center" width="33%">
       <h3><a href="https://github.com/XuanKio/Tetris-Learn-3">Tetris Learn 3</a></h3>
-      <p><strong>Cocos / TypeScript</strong></p>
-      <p>Grid logic, falling blocks, line clears, state handling, and browser game interaction.</p>
+      <img src="https://img.shields.io/badge/Cocos-TypeScript-55C2E1?style=flat-square" alt="Cocos TypeScript" />
+      <br />
+      <br />
+      <p>Grid board, falling blocks, line clear logic, scoring flow, and browser interaction.</p>
+      <sub>Good for: board state and input timing</sub>
     </td>
-    <td width="33%">
+    <td align="center" width="33%">
       <h3><a href="https://github.com/XuanKio/BlackJackFFLite-Learn-2">BlackJack FFLite Learn 2</a></h3>
-      <p><strong>Unity / C#</strong></p>
-      <p>Card game rules, turn flow, UI states, and basic gameplay loop practice.</p>
+      <img src="https://img.shields.io/badge/Unity-C%23-239120?style=flat-square" alt="Unity C#" />
+      <br />
+      <br />
+      <p>Card rules, turn order, UI states, simple decision flow, and round reset handling.</p>
+      <sub>Good for: rules and game state</sub>
     </td>
-    <td width="33%">
+    <td align="center" width="33%">
       <h3><a href="https://github.com/XuanKio/FlappyBird-ProjectLearn-1">FlappyBird Project Learn 1</a></h3>
-      <p><strong>Unity / C#</strong></p>
-      <p>Arcade movement, collision, scoring, obstacle spawning, and replay flow.</p>
+      <img src="https://img.shields.io/badge/Unity-C%23-239120?style=flat-square" alt="Unity C#" />
+      <br />
+      <br />
+      <p>Jump movement, collision, score triggers, obstacle spawning, and replay loop.</p>
+      <sub>Good for: arcade game feel</sub>
     </td>
   </tr>
 </table>
 
-## Other public builds
+## Side quests
 
-| Project | Stack | Highlight |
+| Project | Stack | Why it exists |
 | --- | --- | --- |
-| [CoWord-Cafe](https://github.com/XuanKio/CoWord-Cafe) | JavaScript | Web project practice with frontend flow and interaction logic. |
-| [GameJam](https://github.com/XuanKio/GameJam) | Unity / C# | Rapid game prototyping and gameplay implementation. |
-| [Draw-To-Save](https://github.com/XuanKio/Draw-To-Save) | Cocos / TypeScript | Drawing-based prototype mechanics and interactive logic. |
-| [CNPM](https://github.com/XuanKio/CNPM) | Java | Software engineering coursework and Java fundamentals. |
+| [CoWord-Cafe](https://github.com/XuanKio/CoWord-Cafe) | JavaScript | Web interaction practice with a small user-facing flow. |
+| [GameJam](https://github.com/XuanKio/GameJam) | Unity / C# | Fast gameplay prototype and jam-style implementation. |
+| [Draw-To-Save](https://github.com/XuanKio/Draw-To-Save) | Cocos / TypeScript | Drawing-based mechanics and interactive prototype logic. |
+| [CNPM](https://github.com/XuanKio/CNPM) | Java | Coursework, software engineering basics, and Java practice. |
 
 ## Contribution snake
 
@@ -103,20 +131,20 @@ Public learning remakes that people can reference for mechanics, structure, and 
   </picture>
 </div>
 
-## Progress map
+## Now training
 
 ```txt
-Unity gameplay         In progress
-Cocos projects         In progress
-Game remakes           Building references
-Project structure      Leveling up
-Gameplay polish        Practicing
+Unity gameplay loops      [active]
+Cocos Creator projects    [active]
+Reference remakes         [active]
+Project organization      [leveling]
+Game polish               [leveling]
 ```
 
 ---
 
 <div align="center">
-  <strong>Building playable references, one project at a time.</strong>
+  <strong>Remake, playtest, polish, repeat.</strong>
   <br />
-  <sub>Thanks for visiting my profile.</sub>
+  <sub>Thanks for visiting my cozy game lab.</sub>
 </div>
